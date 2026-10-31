@@ -209,8 +209,10 @@ Comparison
 •	Higher Recall → Better identification of patients with heart disease. 
 •	Higher F1-score → Better balance between precision and recall. 
 For a medical prediction task, recall is particularly important because missing a patient who actually has the condition can be more concerning than generating an extra positive prediction.
+
 ## CONFUSION MATRIX
-```py
+
+```
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -228,6 +230,7 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix - Random Forest")
 plt.show()
+
 ```
 
 # RESULT
